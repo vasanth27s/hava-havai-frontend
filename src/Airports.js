@@ -3,7 +3,6 @@ import './Airports.css';
 
 const Airports = () => {
   const [showAddForm, setShowAddForm] = useState(false);
-  const [selectedAirport, setSelectedAirport] = useState(null);
 
   const airports = [
     { id: 1, name: 'Indra Gandhi International Airport', country: 'India', code: 'DEL', terminals: 3 },
@@ -16,13 +15,11 @@ const Airports = () => {
   // Function to handle showing the form for adding new airport
   const handleAddNew = () => {
     setShowAddForm(true);
-    setSelectedAirport(null); // Reset selectedAirport state
   };
 
   // Function to handle showing the form for editing an airport
   const handleEdit = (airport) => {
-    setSelectedAirport(airport);
-    setShowAddForm(true);
+    // Handle editing here
   };
 
   // Function to handle deleting an airport (to be implemented)
@@ -43,15 +40,15 @@ const Airports = () => {
       <div className="sidebar">
         <h3>hava havai</h3>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Dashboard</a></li>
+          <li><button>Home</button></li>
+          <li><button>Dashboard</button></li>
           <li>Services</li>
-          <li><a href="#">Airports</a></li>
-          <li><a href="#">Videos</a></li>
+          <li><button>Airports</button></li>
+          <li><button>Videos</button></li>
           <li>Others</li>
-          <li><a href="#">List 1</a></li>
-          <li><a href="#">List 2</a></li>
-          <li><a href="#">List 3</a></li>
+          <li><button>List 1</button></li>
+          <li><button>List 2</button></li>
+          <li><button>List 3</button></li>
         </ul>
       </div>
       <div className="content">

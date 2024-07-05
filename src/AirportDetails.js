@@ -21,11 +21,11 @@ const AirportDetails = () => {
       <div className="sidebar">
         <h3>hava havai</h3>
         <ul>
-          <li><a href="#"><img src="home.png" alt="Home" /> Home</a></li>
-          <li><a href="#"><img src="dashboard.png" alt="Dashboard" /> Dashboard</a></li>
-          <li><a href="#"><img src="services.png" alt="Services" /> Services</a></li>
-          <li><a href="#"><img src="airports.png" alt="Airports" /> Airports</a></li>
-          <li><a href="#"><img src="videos.png" alt="Videos" /> Videos</a></li>
+          <li><button><img src="home.png" alt="Home" /> Home</button></li>
+          <li><button><img src="dashboard.png" alt="Dashboard" /> Dashboard</button></li>
+          <li><button><img src="services.png" alt="Services" /> Services</button></li>
+          <li><button><img src="airports.png" alt="Airports" /> Airports</button></li>
+          <li><button><img src="videos.png" alt="Videos" /> Videos</button></li>
         </ul>
       </div>
       <div className="content">
@@ -38,10 +38,10 @@ const AirportDetails = () => {
         </div>
         <div className="tabs">
           <ul>
-            <li><a href="#" className="active">Overview</a></li>
-            <li><a href="#">Runways</a></li>
-            <li><a href="#">Terminals</a></li>
-            <li><a href="#">Airlines</a></li>
+            <li><button className="active">Overview</button></li>
+            <li><button>Runways</button></li>
+            <li><button>Terminals</button></li>
+            <li><button>Airlines</button></li>
           </ul>
         </div>
         <div className="tab-content">

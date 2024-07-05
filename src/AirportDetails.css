@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 25%; /* Changed from 20% to 25% */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 25px; /* Added margin to create space on the right */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    color: #666;
+  }
+  
+  .content {
+    width: 75%; /* Adjusted to match sidebar width */
+    padding: 20px;
+  }
+  
+  .airport-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .tabs li {
+    margin-right: 20px;
+  }
+  
+  .tabs a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .tabs a.active {
+    color: #666;
+    border-bottom: 2px solid #666;
+  }
+  
+  .tab-content {
+    padding: 20px;
+  }
+  

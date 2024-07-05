@@ -1,0 +1,66 @@
+.add-edit-airport {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    width: 50%; /* Adjust width as needed */
+    margin: 20px auto; /* Center align with margin */
+  }
+  
+  .add-edit-airport h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 100px; /* Adjust textarea height */
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .save-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    background-color: #007bff; /* Blue save button */
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #ccc; /* Gray cancel button */
+    color: #333;
+  }
+  

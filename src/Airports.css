@@ -1,0 +1,132 @@
+/* Stylish page background */
+body {
+    background-color: #f9f9f9; /* Light gray background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px; /* Add margin for spacing */
+  }
+  
+  .sidebar {
+    width: 25%; /* Sidebar width */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 25px;
+    border-bottom: 20px solid #ccc; /* Bottom border */
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    color: #666;
+  }
+  
+  .content {
+    width: 75%; /* Content width */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Border for content */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .add-button {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer;
+    float: right; /* Align to right */
+    margin-bottom: 20px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Margin above table */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Align text left */
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit,
+  .delete {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #007bff; /* Blue color for edit/delete */
+  }
+  
+  /* Custom checkboxes */
+  .table input[type="checkbox"] {
+    transform: scale(1.5); /* Increase checkbox size */
+    margin-right: 10px; /* Margin right for spacing */
+  }
+  
+  /* Image upload card */
+  .upload-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    margin-top: 20px;
+  }
+  
+  .upload-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .upload-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .upload-actions button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .upload-actions button.cancel {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .upload-actions button.continue {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
